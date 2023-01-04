@@ -1,7 +1,10 @@
-const routes = require('express').Router();
-import name from '../controllers/index';
+const express = require('express');
+const { name } = require('../controllers/index');
 
-routes.get('/', name.index);
+
+const routes = express.Router();
+
+routes.get('/', name);
 
 module.exports = routes;
 
