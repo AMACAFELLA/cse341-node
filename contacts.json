@@ -1,0 +1,25 @@
+{
+    "contact": {
+        "firstName": "Godfrey",
+        "lastName": "Mac",
+        "email": "godfrey@bestdad.com",
+        "favouriteColor": "green",
+        "birthday": "04/04/61"
+    },
+
+    "contact2": {
+        "firstName": "Cynthia",
+        "lastName": "Mac",
+        "email": "cynthia@bestmom.com",
+        "favouriteColor": "yellow",
+        "birthday": "08/08/61"
+    },
+
+    "contact3": {
+        "firstName": "Ron",
+        "lastName": "Mac",
+        "email": "ron@bestbro.com",
+        "favouriteColor": "red",
+        "birthday": "03/03/90"
+    }
+}
