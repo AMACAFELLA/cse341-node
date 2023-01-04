@@ -1,0 +1,27 @@
+//Localhost
+
+//Name
+
+GET http://localhost:3000/
+
+// All contacts
+
+GET http://localhost:3000/contacts
+
+// Single contact
+
+GET http://localhost:3000/contacts/63b5a31bf028d2a1c2d6f439
+
+//Production 
+
+
+//Name
+Get https://lesson1-coyc.onrender.com/
+
+// All contacts
+
+Get https://lesson1-coyc.onrender.com/contacts
+
+// Single contact
+
+Get https://lesson1-coyc.onrender.com/contacts/63b5a31bf028d2a1c2d6f439
