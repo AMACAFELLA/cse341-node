@@ -1,3 +1,4 @@
+//Week 1
 //Localhost
 
 //Name
@@ -12,8 +13,35 @@ GET http://localhost:3000/contacts
 ###
 GET http://localhost:3000/contacts/63b5a31bf028d2a1c2d6f439
 
-//Production 
+//Week 2
 
+### Create contact 
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Iris",
+    "lastName":"Toody", 
+    "email":"iris@bestmail.com", 
+    "favouriteColor":"Orange", 
+    "birthday":"01/04/06"
+}
+
+### PUT contact 
+PUT http://localhost:3000/contacts/63c008d5bf6ee14b0614013a HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Iris", 
+    "lastName":"Toody",
+    "email":"iris@bestmail.com", 
+    "favouriteColor":"Green", 
+    "birthday":"02/12/06"
+}
+### DELETE contact 
+DELETE http://localhost:3000/contacts/63c008d5bf6ee14b0614013a HTTP/1.1
+
+//Production 
 
 //Name
 ###
@@ -26,3 +54,32 @@ Get https://lesson1-coyc.onrender.com/contacts
 // Single contact
 ###
 Get https://lesson1-coyc.onrender.com/contacts/63b5a31bf028d2a1c2d6f439
+
+// Week 2
+
+### Create contact 
+POST https://lesson1-coyc.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Iris",
+    "lastName":"Toody", 
+    "email":"iris@bestmail.com", 
+    "favouriteColor":"Orange", 
+    "birthday":"01/04/06"
+}
+
+### PUT contact 
+PUT https://lesson1-coyc.onrender.com/contacts/63b5a31bf028d2a1c2d6f439 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Iris", 
+    "lastName":"Toody",
+    "email":"iris@bestmail.com", 
+    "favouriteColor":"Green", 
+    "birthday":"02/12/06"
+}
+
+### DELETE contact 
+DELETE https://lesson1-coyc.onrender.com/contacts/63b5a31bf028d2a1c2d6f439 HTTP/1.1
