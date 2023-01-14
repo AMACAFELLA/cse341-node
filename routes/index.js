@@ -1,12 +1,9 @@
+
 const express = require('express');
-const { name } = require('../controllers/index');
+const router = express.Router();
 
+router.use('/', require('./swagger'));
+router.use('/contacts', require('./contacts'));
 
-const routes = express.Router();
-
-routes.get('/', name);
-
-routes.use('/contacts', require('./contacts'))
-
-module.exports = routes;
+module.exports = router;
 
