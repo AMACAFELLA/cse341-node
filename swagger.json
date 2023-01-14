@@ -8,7 +8,7 @@
   "host": "lesson1-coyc.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
